@@ -10,13 +10,14 @@ import { faTh } from '@fortawesome/free-solid-svg-icons';
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons';
 import { modalSlice } from '../../store/modal-slice';
 import { Button } from './Button';
-
+import { LoadingState } from '../UI/LoadingSate';
+import { useNavigation } from 'react-router-dom';
 
 export const Header = () => {
 	const dispatch = useDispatch();
+	const { state } = useNavigation();
 	const isDark = useSelector((state: RootState) => state.theme.isDark);
 	const isList = useSelector((state: RootState) => state.newsMode.isList);
-	
 
 	const themeChangeHnalder = () => {
 		dispatch(themeSlice.actions.changeTheme());
@@ -45,7 +46,7 @@ export const Header = () => {
 						GnNews
 					</h1>
 				</Link>
-
+				{state === 'loading' && <LoadingState />}
 				<div>
 					<Button icon={faCircleInfo} onClickHandler={openModalHandler} />
 					<Button icon={icon} onClickHandler={changeModeHandler} />
