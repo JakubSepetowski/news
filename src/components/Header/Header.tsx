@@ -11,10 +11,13 @@ import { faCircleInfo } from '@fortawesome/free-solid-svg-icons';
 import { modalSlice } from '../../store/modal-slice';
 import { Button } from './Button';
 
+
 export const Header = () => {
 	const dispatch = useDispatch();
 	const isDark = useSelector((state: RootState) => state.theme.isDark);
 	const isList = useSelector((state: RootState) => state.newsMode.isList);
+	
+
 	const themeChangeHnalder = () => {
 		dispatch(themeSlice.actions.changeTheme());
 	};

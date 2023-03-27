@@ -12,15 +12,19 @@ const difficulContent = `As for the most difficult part, I didn't feel that any 
 export const Modal = () => {
 	const dispatch = useDispatch();
 	const [conten, setContent] = useState(bestContent);
+	const [isBestActive, setIsBestActive] = useState(true);
+
 	const isDark = useSelector((state: RootState) => state.theme.isDark);
 	const closeModalHandler = () => {
 		dispatch(modalSlice.actions.toggleModal());
 	};
 	const showBestPartHandler = () => {
 		setContent(bestContent);
+		setIsBestActive(true);
 	};
 	const showDifficultPartHanlder = () => {
 		setContent(difficulContent);
+		setIsBestActive(false);
 	};
 
 	return (
@@ -36,8 +40,12 @@ export const Modal = () => {
 					className={`border-b w-full pb-2 font-semibold  md:text-lg ${
 						isDark ? 'text-dark-primary' : 'text-light-primary'
 					}`}>
-					<button onClick={showBestPartHandler}>The best part</button>
-					<button onClick={showDifficultPartHanlder} className='ml-4'>
+					<button onClick={showBestPartHandler} className={`${isBestActive ? 'underline' : ''}`}>
+						The best part
+					</button>
+					<button
+						onClick={showDifficultPartHanlder}
+						className={`ml-4 ${!isBestActive ? 'underline' : ''}`}>
 						The most difficult part
 					</button>
 				</div>
