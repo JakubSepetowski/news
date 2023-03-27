@@ -1,0 +1,178 @@
+[
+	{
+		"name": "Argentina",
+		"id": "ar",
+		"flag": "https://flagcdn.com/ar.svg"
+	},
+	{
+		"name": "Australia",
+		"id": "au",
+		"flag": "https://flagcdn.com/au.svg"
+	},
+	{
+		"name": "Austria",
+		"id": "at",
+		"flag": "https://flagcdn.com/at.svg"
+	},
+	{
+		"name": "Belgium",
+		"id": "be",
+		"flag": "https://flagcdn.com/be.svg"
+	},
+	{
+		"name": "Brazil",
+		"id": "br",
+		"flag": "https://flagcdn.com/br.svg"
+	},
+	{
+		"name": "Bulgaria",
+		"id": "bg",
+		"flag": "https://flagcdn.com/bg.svg"
+	},
+	{
+		"name": "Canada",
+		"id": "ca",
+		"flag": "https://flagcdn.com/ca.svg"
+	},
+	{
+		"name": "Czech Republic",
+		"id": "cz",
+		"flag": "https://flagcdn.com/cz.svg"
+	},
+	{
+		"name": "France",
+		"id": "fr",
+		"flag": "https://flagcdn.com/fr.svg"
+	},
+	{
+		"name": "Germany",
+		"id": "de",
+		"flag": "https://flagcdn.com/de.svg"
+	},
+	{
+		"name": "Hungary",
+		"id": "hu",
+		"flag": "https://flagcdn.com/hu.svg"
+	},
+	{
+		"name": "Ireland",
+		"id": "ie",
+		"flag": "https://flagcdn.com/ie.svg"
+	},
+	{
+		"name": "Italy",
+		"id": "it",
+		"flag": "https://flagcdn.com/it.svg"
+	},
+	{
+		"name": "Japan",
+		"id": "jp",
+		"flag": "https://flagcdn.com/jp.svg"
+	},
+	{
+		"name": "Latvia",
+		"id": "lv",
+		"flag": "https://flagcdn.com/lv.svg"
+	},
+	{
+		"name": "Lithuania",
+		"id": "lt",
+		"flag": "https://flagcdn.com/lt.svg"
+	},
+	{
+		"name": "Netherlands",
+		"id": "nl",
+		"flag": "https://flagcdn.com/nl.svg"
+	},
+	{
+		"name": "Nigeria",
+		"id": "ng",
+		"flag": "https://flagcdn.com/ng.svg"
+	},
+
+	{
+		"name": "Norway",
+		"id": "no",
+		"flag": "https://flagcdn.com/no.svg"
+	},
+	{
+		"name": "Philippines",
+		"id": "ph",
+		"flag": "https://flagcdn.com/ph.svg"
+	},
+	{
+		"name": "Poland",
+		"id": "pl",
+		"flag": "https://flagcdn.com/pl.svg"
+	},
+	{
+		"name": "Portugal",
+		"id": "pt",
+		"flag": "https://flagcdn.com/pt.svg"
+	},
+	{
+		"name": "Romania",
+		"id": "ro",
+		"flag": "https://flagcdn.com/ro.svg"
+	},
+	{
+		"name": "Russia",
+		"id": "ru",
+		"flag": "https://flagcdn.com/ru.svg"
+	},
+	{
+		"name": "Serbia",
+		"id": "rs",
+		"flag": "https://flagcdn.com/rs.svg"
+	},
+	{
+		"name": "Slovakia",
+		"id": "sk",
+		"flag": "https://flagcdn.com/sk.svg"
+	},
+	{
+		"name": "Slovenia",
+		"id": "si",
+		"flag": "https://flagcdn.com/si.svg"
+	},
+	{
+		"name": "South Africa",
+		"id": "za",
+		"flag": "https://flagcdn.com/za.svg"
+	},
+	{
+		"name": "Sweden",
+		"id": "se",
+		"flag": "https://flagcdn.com/se.svg"
+	},
+	{
+		"name": "Switzerland",
+		"id": "ch",
+		"flag": "https://flagcdn.com/ch.svg"
+	},
+	{
+		"name": "Turkey",
+		"id": "tr",
+		"flag": "https://flagcdn.com/tr.svg"
+	},
+	{
+		"name": "Ukraine",
+		"id": "ua",
+		"flag": "https://flagcdn.com/ua.svg"
+	},
+	{
+		"name": "United Kingdom",
+		"id": "gb",
+		"flag": "https://flagcdn.com/gb.svg"
+	},
+	{
+		"name": "United States",
+		"id": "us",
+		"flag": "https://flagcdn.com/us.svg"
+	},
+	{
+		"name": "Venuzuela",
+		"id": "ve",
+		"flag": "https://flagcdn.com/ve.svg"
+	}
+]

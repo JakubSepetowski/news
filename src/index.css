@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: hsl(0, 0%, 98%);
+}
+
+.dark {
+	background-color: #121212;
+	color: hsl(0, 0%, 100%);
+}
+.light {
+	background-color: hsl(0, 0%, 98%);
+	color: hsl(200, 15%, 8%);
+}
+.scroll::-webkit-scrollbar {
+	display: none;
+}
+
+.scroll {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+.no-scroll{
+	overflow: hidden;
+}
+.add-scroll{
+	overflow: auto;
+}
