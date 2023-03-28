@@ -10,7 +10,13 @@ import { NewsPopup } from '../components/UI/NewsPopup';
 import { RootState } from '../store/store';
 import { Modal } from '../components/UI/Modal';
 
-export const getSelectedCountryNews = async ({ params }: any) => {
+interface Props {
+	params: {
+		countryId: string;
+	};
+}
+
+export const getSelectedCountryNews = async ({ params }: Props) => {
 	const countryName = params.countryId;
 
 	const countriesRes = await fetch('/countries.json');
