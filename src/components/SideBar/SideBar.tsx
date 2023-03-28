@@ -29,7 +29,7 @@ export const SideBar = () => {
 				<FontAwesomeIcon icon={icon} />
 			</button>
 			<div className=' flex flex-col w-full h-full justify-start items-center mt-24 overflow-y-auto scroll '>
-				<SideBarCountries/>
+				<SideBarCountries />
 			</div>
 		</div>
 	);

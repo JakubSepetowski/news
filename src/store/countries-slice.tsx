@@ -1,7 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { Country } from '../types/types';
 
-
 const initCountires: {
 	countries: Country[];
 } = {

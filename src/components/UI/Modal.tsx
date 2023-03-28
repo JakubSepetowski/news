@@ -37,7 +37,7 @@ export const Modal = () => {
 					<FontAwesomeIcon className='p-1 text-xl' icon={faClose} />
 				</button>
 				<div
-					className={`border-b w-full pb-2 font-semibold  md:text-lg ${
+					className={`flex flex-col items-start sm:flex-row border-b w-full pb-2 font-semibold  md:text-lg ${
 						isDark ? 'text-dark-primary' : 'text-light-primary'
 					}`}>
 					<button onClick={showBestPartHandler} className={`${isBestActive ? 'underline' : ''}`}>
@@ -45,7 +45,7 @@ export const Modal = () => {
 					</button>
 					<button
 						onClick={showDifficultPartHanlder}
-						className={`ml-4 ${!isBestActive ? 'underline' : ''}`}>
+						className={`mt-1 sm:mt-0 sm:ml-4 ${!isBestActive ? 'underline' : ''}`}>
 						The most difficult part
 					</button>
 				</div>
