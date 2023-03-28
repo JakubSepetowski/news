@@ -15,12 +15,11 @@ const router = createBrowserRouter([
 		element: <RootLayout />,
 		errorElement: <ErrorPage />,
 		children: [
-			{ index: true, element: <HomePage />, loader: getNews},
+			{ index: true, element: <HomePage />, loader: getNews },
 			{
 				path: 'country/:countryId',
 				element: <CountryDetalisPage />,
 				loader: getSelectedCountryNews,
-			
 			},
 		],
 	},

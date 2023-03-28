@@ -8,8 +8,9 @@ import { NewsPopup } from '../components/UI/NewsPopup';
 import { useSelector } from 'react-redux';
 import { RootState } from '../store/store';
 import { Modal } from '../components/UI/Modal';
+import { LoaderFunction } from 'react-router-dom';
 
-export const getNews = async () => {
+export const getNews: LoaderFunction = async () => {
 	const resIP = await fetch(
 		`https://api.geoapify.com/v1/ipinfo?&apiKey=db3259b3713749a8839c98ae73c9257a`
 	);
