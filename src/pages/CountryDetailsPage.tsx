@@ -1,5 +1,5 @@
 import { NewsSection } from '../components/NewsSection/NewsSection';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Params, useLoaderData, useParams } from 'react-router-dom';
 import { News } from '../types/types';
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
@@ -9,14 +9,9 @@ import { useSelector } from 'react-redux';
 import { NewsPopup } from '../components/UI/NewsPopup';
 import { RootState } from '../store/store';
 import { Modal } from '../components/UI/Modal';
+import { LoaderFunction } from 'react-router-dom';
 
-interface Props {
-	params: {
-		countryId: string;
-	};
-}
-
-export const getSelectedCountryNews = async ({ params }: Props) => {
+export const getSelectedCountryNews: LoaderFunction = async ({params}) => {
 	const countryName = params.countryId;
 
 	const countriesRes = await fetch('/countries.json');
